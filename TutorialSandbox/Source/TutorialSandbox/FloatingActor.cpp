@@ -4,7 +4,7 @@
 
 
 // Sets default values
-AFloatingActor::AFloatingActor()
+AFloatingActor::AFloatingActor() : BobHeight(20.0f)
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
