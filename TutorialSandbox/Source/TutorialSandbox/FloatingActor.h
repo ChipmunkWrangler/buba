@@ -25,5 +25,7 @@ public:
 
 private:
 	float RunningTime;
+	UPROPERTY(EditAnywhere) 
+	float BobHeight;
 	
 };
